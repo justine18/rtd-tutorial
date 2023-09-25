@@ -17,3 +17,5 @@ Contents
 
    usage
    api
+   examples
+   model_library
