@@ -4,7 +4,10 @@ import os
 
 
 with open("requirements.txt") as f:
-    requirements = f.read().splitlines()
+    install_requirements = f.read().splitlines()
+
+with open("docs/requirements.txt") as f:
+    doc_requirements = f.read().splitlines()
 
 
 class BinaryDistribution(Distribution):
@@ -28,5 +31,6 @@ setup(
     package_dir={"gamspy": "src/gamspy"},
     package_data={"gamspy": [get_minigams_path()]},
     distclass=BinaryDistribution,
-    install_requires=requirements,
+    install_requires=install_requirements,
+    extras_require={'docs': doc_requirements}
 )
