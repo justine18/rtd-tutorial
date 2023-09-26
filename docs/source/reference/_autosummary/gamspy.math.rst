@@ -1,4 +1,4 @@
-gamspy.math
+﻿gamspy.math
 ===========
 
 .. automodule:: gamspy.math

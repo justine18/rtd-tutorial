@@ -4,16 +4,6 @@
 GAMSPy documentation
 ####################
 
-Contents
---------
-
-.. toctree::
-   :maxdepth: 1
-
-   user/index
-   reference/index
-   release/index
-
 **Version**: |version|
 
 **Download documentation**:
@@ -32,3 +22,13 @@ Contents
 GAMSPy is a mathematical optimization package for scientific and commercial
 computing in Python. It is a Python library that provides symbols to be used
 in equations, a math package, and various utility functions.
+
+Contents
+--------
+
+.. toctree::
+   :maxdepth: 1
+
+   user/index
+   reference/index
+   release/index

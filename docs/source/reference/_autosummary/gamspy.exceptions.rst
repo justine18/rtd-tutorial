@@ -1,4 +1,4 @@
-gamspy.exceptions
+﻿gamspy.exceptions
 =================
 
 .. automodule:: gamspy.exceptions
