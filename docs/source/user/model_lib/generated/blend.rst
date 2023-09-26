@@ -8,7 +8,7 @@ Blend
 GAMSPy
 ``````
 
-.. literalinclude:: ../../../../tests/integration/models/blend.py
+.. literalinclude:: ../../../../../tests/integration/models/blend.py
 
 .. _blendgms:
 

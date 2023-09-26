@@ -8,7 +8,7 @@ trnsport
 GAMSPy
 ```````
 
-.. literalinclude:: ../../../../tests/integration/models/transportation.py
+.. literalinclude:: ../../../../../tests/integration/models/transportation.py
 
 .. _trnsport_gms:
 
