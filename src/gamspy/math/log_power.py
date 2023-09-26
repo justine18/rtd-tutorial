@@ -35,7 +35,7 @@ if TYPE_CHECKING:
 
 def exp(x: Union[float, "Symbol"]) -> Union["Expression", float]:
     """
-    Exponential of x (i.e. e^x)
+    Exponential of x (i.e\\. e^x)
 
     Returns
     -------

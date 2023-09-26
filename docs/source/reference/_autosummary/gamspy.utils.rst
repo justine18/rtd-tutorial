@@ -1,4 +1,4 @@
-gamspy.utils
+﻿gamspy.utils
 ============
 
 .. automodule:: gamspy.utils
