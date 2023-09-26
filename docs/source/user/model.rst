@@ -1,0 +1,7 @@
+:orphan:
+
+.. _model:
+
+*****
+Model
+*****

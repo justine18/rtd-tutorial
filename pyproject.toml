@@ -1,8 +1,69 @@
 [build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 
 [project]
-name = "GAMSPy Test"
-authors = [{name = "Justine", email = "jbroihan@gams.com"}]
-dynamic = ["version", "description"]
+name = "gamspy"
+version = "0.1.0"
+description = "GAMS Python API for algebraic modelling"
+urls.homepage = "https://github.com/GAMS-dev/gamspy"
+requires-python = ">= 3.8"
+license.file = "LICENSE"
+keywords = [
+  "Optimization",
+  "GAMS",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Topic :: Software Development",
+  "Topic :: Scientific/Engineering",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX",
+  "Operating System :: Unix",
+  "Operating System :: MacOS",
+  "Operating System :: Microsoft :: Windows",
+]
+dynamic = ["dependencies"]
+
+[project.optional-dependencies]
+dev = [
+    "black == 23.7.0",
+    "pre-commit == 3.3.3",
+    "flake8 == 5.0.0",
+]
+test = [
+    "mypy == 1.4.1",
+    "coverage[toml] == 7.2.7",
+    "openpyxl == 3.1.2",
+]
+
+[project.scripts]
+gamspy = "gamspy._cli.cmdline:main"
+
+[tool.mypy]
+warn_unused_configs = true
+follow_imports = "skip"
+follow_imports_for_stubs = false
+ignore_missing_imports = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.coverage.run]
+omit = [
+    "*/_cli/*.py",
+    "__main__.py"
+]
+
+[tool.coverage.report]
+exclude_also = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:"
+]
+
+[tool.bandit]
+exclude_dirs = ["tests", "docs"]
+skips = ["B101", "B404", "B603", "B607"]

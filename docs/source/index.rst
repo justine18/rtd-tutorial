@@ -1,22 +1,29 @@
-Welcome to GAMSPy's documentation!
-===================================
+.. _gamspy_docs_mainpage:
 
-**GAMSPy** is a Python library for ...
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+####################
+GAMSPy documentation
+####################
 
 Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   usage
-   api
-   examples
-   model_library
+   user/index
+   reference/index
+   release/index
+
+**Version**: |version|
+
+**Download documentation**:
+`Historical versions of documentation <https://numpy.org/doc/>`_ #ToDo: Link needs update
+   
+**Useful links**:
+`Installation <user/Installation>`_ |
+`Source Repository <https://git.gams.com/devel/gamspy/-/tree/master/>`_ #ToDo: Link needs update|
+`Support <https://www.gams.com/support/>`_
+
+GAMSPy is a mathematical optimization package for scientific and commercial
+computing in Python. It is a Python library that provides symbols to be used
+in equations, a math package, and various utility functions.
