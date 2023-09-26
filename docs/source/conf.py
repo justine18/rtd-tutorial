@@ -29,7 +29,7 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
-templates_path = ['_templates']
+templates_path = ['../_templates']
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 autosummary_generate = True
 
