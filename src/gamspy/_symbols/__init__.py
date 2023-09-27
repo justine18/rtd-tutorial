@@ -23,10 +23,10 @@
 # SOFTWARE.
 #
 # flake8: noqa
-from _symbols.alias import Alias
-from _symbols.equation import Equation
-from _symbols.equation import EquationType
-from _symbols.parameter import Parameter
-from _symbols.set import Set
-from _symbols.variable import Variable
-from _symbols.variable import VariableType
+from ._symbols.alias import Alias
+from ._symbols.equation import Equation
+from ._symbols.equation import EquationType
+from ._symbols.parameter import Parameter
+from ._symbols.set import Set
+from ._symbols.variable import Variable
+from ._symbols.variable import VariableType
