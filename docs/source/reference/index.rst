@@ -12,6 +12,7 @@ API Reference
    :template: custom-module-template.rst
    :recursive:
 
+   gamspy.symbols
    gamspy.exceptions
    gamspy.functions
    gamspy.math
