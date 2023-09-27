@@ -38,6 +38,11 @@ templates_path = ['../_templates']
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 autosummary_generate = True
 todo_include_todos = True
+autodoc_default_options = {
+    "members": True,
+    "undoc-members": True,
+    "private-members": True
+}
 
 # -- Options for HTML output
 
