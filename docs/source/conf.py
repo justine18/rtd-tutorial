@@ -22,6 +22,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx.ext.mathjax',
+    'sphinx.ext.todo',
     "nbsphinx",
     "sphinx_copybutton",
     "numpydoc"
@@ -36,6 +37,7 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['../_templates']
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 autosummary_generate = True
+todo_include_todos = True
 
 # -- Options for HTML output
 
