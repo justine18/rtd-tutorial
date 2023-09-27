@@ -4,6 +4,20 @@
 GAMSPy documentation
 ####################
 
+What is GAMSPy
+--------------
+
+GAMSPy is a mathematical optimization package for scientific and commercial
+computing in Python. It is a Python library that provides symbols to be used
+in equations, a math package, and various utility functions. 
+
+System Requirements
+-------------------
+
+- No GAMS required
+- comes with demo license
+- ... 
+
 **Version**: |version|
 
 **Download documentation**:
@@ -18,10 +32,6 @@ GAMSPy documentation
 `Support <https://www.gams.com/support/>`_
 
 .. todo:: Source repository link needs update|
-
-GAMSPy is a mathematical optimization package for scientific and commercial
-computing in Python. It is a Python library that provides symbols to be used
-in equations, a math package, and various utility functions.
 
 ToDos
 ------
