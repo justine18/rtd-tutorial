@@ -3,7 +3,7 @@ import unittest
 import gamspy.utils as utils
 from gamspy import Container
 from gamspy import Set
-from gamspy._algebra.domain import DomainException
+from gamspy.algebra.domain import DomainException
 
 
 class UtilsSuite(unittest.TestCase):

@@ -29,16 +29,16 @@ from typing import Optional
 from typing import TYPE_CHECKING
 from typing import Union
 
-import gamspy._algebra.expression as expression
-import gamspy._symbols.alias as alias
-import gamspy._symbols.implicits as implicits
-import gamspy._symbols.set as gams_set
-from gamspy._symbols.implicits.implicit_parameter import ImplicitParameter
-from gamspy._symbols.implicits.implicit_symbol import ImplicitSymbol
+import gamspy.algebra.expression as expression
+import gamspy.symbols.alias as alias
+import gamspy.symbols.implicits as implicits
+import gamspy.symbols.set as gams_set
+from gamspy.symbols.implicits.implicit_parameter import ImplicitParameter
+from gamspy.symbols.implicits.implicit_symbol import ImplicitSymbol
 
 if TYPE_CHECKING:
     from gamspy import Set, Equation
-    from gamspy._algebra.expression import Expression
+    from gamspy.algebra.expression import Expression
 
 
 class ImplicitEquation(ImplicitSymbol):

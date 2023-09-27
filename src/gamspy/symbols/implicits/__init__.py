@@ -11,8 +11,8 @@
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
 #
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -22,35 +22,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-from typing import Union
-
-import gamspy._algebra.condition as condition
-
-
-class Number:
-    """
-    Needed for conditions on numbers.
-
-    Parameters
-    ----------
-    value : int | float
-
-    Examples
-    --------
-    >>> Number(1).where[sig[i] == 0]
-    1$(sig(i) = 0)
-    """
-
-    def __init__(self, value: Union[int, float]):
-        self._value = value
-        self.where = condition.Condition(self)
-
-    def gamsRepr(self) -> str:
-        """
-        Representation of this Number in GAMS language.
-
-        Returns
-        -------
-        str
-        """
-        return f"{self._value}"
+# flake8: noqa
+from gamspy.symbols.implicits.implicit_equation import ImplicitEquation
+from gamspy.symbols.implicits.implicit_parameter import ImplicitParameter
+from gamspy.symbols.implicits.implicit_set import ImplicitSet
+from gamspy.symbols.implicits.implicit_variable import ImplicitVariable

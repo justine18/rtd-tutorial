@@ -25,11 +25,11 @@
 from typing import TYPE_CHECKING
 from typing import Union
 
-import gamspy._algebra.expression as expression
+import gamspy.algebra.expression as expression
 import gamspy.utils as utils
 
 if TYPE_CHECKING:
-    from gamspy._algebra.expression import Expression
+    from gamspy.algebra.expression import Expression
 
 
 def ifthen(

@@ -41,8 +41,8 @@ from gams import (
 )
 
 import gamspy as gp
-import gamspy._algebra.expression as expression
-import gamspy._algebra.operation as operation
+import gamspy.algebra.expression as expression
+import gamspy.algebra.operation as operation
 import gamspy.utils as utils
 from gamspy._engine import EngineConfig
 from gamspy._model_instance import ModelInstance
@@ -50,9 +50,9 @@ from gamspy.exceptions import GamspyException
 
 if TYPE_CHECKING:
     from gamspy import Parameter, Variable, Equation, Container
-    from gamspy._algebra.expression import Expression
-    from gamspy._algebra.operation import Operation
-    from gamspy._symbols.implicits import ImplicitParameter
+    from gamspy.algebra.expression import Expression
+    from gamspy.algebra.operation import Operation
+    from gamspy.symbols.implicits import ImplicitParameter
 
 
 class Problem(Enum):

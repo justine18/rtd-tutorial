@@ -44,14 +44,14 @@ from gams.control.workspace import GamsExceptionExecution
 from gams.core import gdx
 
 import gamspy as gp
-import gamspy._algebra.expression as expression
+import gamspy.algebra.expression as expression
 import gamspy.utils as utils
 from gamspy.exceptions import EarlyQuit
 from gamspy.exceptions import GamspyException
 
 if TYPE_CHECKING:
     from gamspy import Alias, Set, Parameter, Variable, Equation, EquationType
-    from gamspy._algebra.expression import Expression
+    from gamspy.algebra.expression import Expression
     from gamspy._engine import EngineConfig
 
 

@@ -26,16 +26,16 @@ from typing import Tuple
 from typing import TYPE_CHECKING
 from typing import Union
 
-import gamspy._algebra.condition as condition
-import gamspy._algebra.domain as domain
-import gamspy._algebra.expression as expression
-import gamspy._algebra.operable as operable
+import gamspy.algebra.condition as condition
+import gamspy.algebra.domain as domain
+import gamspy.algebra.expression as expression
+import gamspy.algebra.operable as operable
 import gamspy.utils as utils
 
 if TYPE_CHECKING:
     from gams.transfer import Set, Alias
-    from gamspy._algebra import Domain
-    from gamspy._algebra.expression import Expression
+    from gamspy.algebra import Domain
+    from gamspy.algebra.expression import Expression
 
 
 class Operation(operable.Operable):

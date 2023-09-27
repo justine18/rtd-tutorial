@@ -1,4 +1,4 @@
-﻿gamspy.functions
+gamspy.functions
 ================
 
 .. automodule:: gamspy.functions

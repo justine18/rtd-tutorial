@@ -25,11 +25,11 @@
 from typing import TYPE_CHECKING
 from typing import Union
 
-import gamspy._algebra.expression as expression
+import gamspy.algebra.expression as expression
 
 if TYPE_CHECKING:
-    from gamspy._algebra.expression import Expression
-    from gamspy._symbols.symbol import Symbol
+    from gamspy.algebra.expression import Expression
+    from gamspy.symbols.symbol import Symbol
 
 
 def binomial(

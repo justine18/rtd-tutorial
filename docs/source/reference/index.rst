@@ -13,6 +13,7 @@ API Reference
    :recursive:
 
    gamspy.exceptions
-   gamspy.functions
-   gamspy.math
-   gamspy.utils
+   gamspy.symbols
+..    gamspy.functions
+   .. gamspy.math
+   .. gamspy.utils

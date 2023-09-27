@@ -11,8 +11,8 @@
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
 #
-# The above copyright notice and this permission notice shall be included in all
-# copies or substantial portions of the Software.
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
 #
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -23,10 +23,11 @@
 # SOFTWARE.
 #
 # flake8: noqa
-from gamspy._symbols.alias import Alias
-from gamspy._symbols.equation import Equation
-from gamspy._symbols.equation import EquationType
-from gamspy._symbols.parameter import Parameter
-from gamspy._symbols.set import Set
-from gamspy._symbols.variable import Variable
-from gamspy._symbols.variable import VariableType
+from gamspy.algebra.domain import Domain
+from gamspy.algebra.number import Number
+from gamspy.algebra.operation import Card
+from gamspy.algebra.operation import Ord
+from gamspy.algebra.operation import Product
+from gamspy.algebra.operation import Smax
+from gamspy.algebra.operation import Smin
+from gamspy.algebra.operation import Sum

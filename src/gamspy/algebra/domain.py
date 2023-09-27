@@ -28,12 +28,12 @@ from typing import Tuple
 from typing import TYPE_CHECKING
 from typing import Union
 
-import gamspy._algebra.condition as condition
+import gamspy.algebra.condition as condition
 import gamspy.utils as utils
 
 if TYPE_CHECKING:
     from gamspy import Set, Alias
-    from gamspy._symbols.implicits import ImplicitSet
+    from gamspy.symbols.implicits import ImplicitSet
 
 
 class DomainException(Exception):

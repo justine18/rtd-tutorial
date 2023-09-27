@@ -23,26 +23,26 @@
 # SOFTWARE.
 #
 # flake8: noqa
-from gamspy._algebra import Card
-from gamspy._algebra import Domain
-from gamspy._algebra import Number
-from gamspy._algebra import Ord
-from gamspy._algebra import Product
-from gamspy._algebra import Smax
-from gamspy._algebra import Smin
-from gamspy._algebra import Sum
+from gamspy.algebra import Card
+from gamspy.algebra import Domain
+from gamspy.algebra import Number
+from gamspy.algebra import Ord
+from gamspy.algebra import Product
+from gamspy.algebra import Smax
+from gamspy.algebra import Smin
+from gamspy.algebra import Sum
 from gamspy._container import Container
 from gamspy._model import Model
 from gamspy._model import ModelStatus
 from gamspy._model import Problem
 from gamspy._model import Sense
-from gamspy._symbols import Alias
-from gamspy._symbols import Equation
-from gamspy._symbols import EquationType
-from gamspy._symbols import Parameter
-from gamspy._symbols import Set
-from gamspy._symbols import Variable
-from gamspy._symbols import VariableType
+from gamspy.symbols import Alias
+from gamspy.symbols import Equation
+from gamspy.symbols import EquationType
+from gamspy.symbols import Parameter
+from gamspy.symbols import Set
+from gamspy.symbols import Variable
+from gamspy.symbols import VariableType
 
 _order = 0  # Global order for newly generated symbols with no name
 __version__ = "0.1.0"

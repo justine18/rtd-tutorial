@@ -1,7 +1,7 @@
 import unittest
 
 from gamspy import Container, Set, Domain
-from gamspy._algebra.domain import DomainException
+from gamspy.algebra.domain import DomainException
 
 
 class DomainSuite(unittest.TestCase):
