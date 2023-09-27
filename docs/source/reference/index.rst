@@ -3,7 +3,7 @@
 API Reference
 =============
 
-.. .. automodule:: gamspy
+.. automodule:: gamspy
 
 .. rubric:: Modules
 
@@ -12,8 +12,8 @@ API Reference
    :template: custom-module-template.rst
    :recursive:
 
-   gamspy
-..    gamspy.exceptions
+   gamspy.exceptions
+   gamspy.symbols
 ..    gamspy.functions
    .. gamspy.math
    .. gamspy.utils
