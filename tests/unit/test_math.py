@@ -3,7 +3,7 @@ import unittest
 
 import pandas as pd
 
-import gamspy._algebra.expression as expression
+import gamspy.algebra.expression as expression
 import gamspy.math as gams_math
 from gamspy import Container
 from gamspy import Parameter

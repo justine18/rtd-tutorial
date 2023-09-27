@@ -22,7 +22,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-import gamspy._algebra.expression as expression
+import gamspy.algebra.expression as expression
 
 
 class Operable:

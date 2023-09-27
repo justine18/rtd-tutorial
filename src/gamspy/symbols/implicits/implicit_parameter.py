@@ -29,14 +29,14 @@ from typing import Optional
 from typing import TYPE_CHECKING
 from typing import Union
 
-import gamspy._algebra.expression as expression
-import gamspy._algebra.operable as operable
+import gamspy.algebra.expression as expression
+import gamspy.algebra.operable as operable
 import gamspy.utils as utils
-from gamspy._symbols.implicits.implicit_symbol import ImplicitSymbol
+from gamspy.symbols.implicits.implicit_symbol import ImplicitSymbol
 
 if TYPE_CHECKING:
     from gamspy import Set, Parameter, Variable, Equation
-    from gamspy._algebra.expression import Expression
+    from gamspy.algebra.expression import Expression
 
 
 class ImplicitParameter(ImplicitSymbol, operable.Operable):

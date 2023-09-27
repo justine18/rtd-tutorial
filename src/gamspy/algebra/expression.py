@@ -26,11 +26,11 @@ from __future__ import annotations
 
 from typing import Tuple
 
-import gamspy._algebra.condition as condition
-import gamspy._algebra.domain as domain
-import gamspy._algebra.operable as operable
-import gamspy._symbols as syms
-import gamspy._symbols.implicits as implicits
+import gamspy.algebra.condition as condition
+import gamspy.algebra.domain as domain
+import gamspy.algebra.operable as operable
+import gamspy.symbols as syms
+import gamspy.symbols.implicits as implicits
 import gamspy.utils as utils
 
 

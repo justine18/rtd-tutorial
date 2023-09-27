@@ -28,16 +28,16 @@ from typing import Union
 
 import gams.transfer as gt
 
-import gamspy._algebra.condition as condition
-import gamspy._algebra.expression as expression
-import gamspy._algebra.operable as operable
-import gamspy._symbols.implicits as implicits
-from gamspy._symbols.symbol import Symbol
+import gamspy.algebra.condition as condition
+import gamspy.algebra.expression as expression
+import gamspy.algebra.operable as operable
+import gamspy.symbols.implicits as implicits
+from gamspy.symbols.symbol import Symbol
 
 if TYPE_CHECKING:
     from gamspy import Set, Container
-    from gamspy._algebra.operable import Operable
-    from gamspy._algebra.expression import Expression
+    from gamspy.algebra.operable import Operable
+    from gamspy.algebra.expression import Expression
 
 
 class Alias(gt.Alias, operable.Operable, Symbol):

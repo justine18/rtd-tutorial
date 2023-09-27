@@ -22,11 +22,11 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-import gamspy._algebra.expression as expression
-import gamspy._symbols as syms
-import gamspy._symbols.implicits as implicits
+import gamspy.algebra.expression as expression
+import gamspy.symbols as syms
+import gamspy.symbols.implicits as implicits
 import gamspy.utils as utils
-from gamspy._symbols.implicits.implicit_symbol import ImplicitSymbol
+from gamspy.symbols.implicits.implicit_symbol import ImplicitSymbol
 
 
 class Condition:

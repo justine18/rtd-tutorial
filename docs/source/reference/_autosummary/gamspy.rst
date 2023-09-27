@@ -1,7 +1,7 @@
-gamspy.math
-===========
+﻿gamspy
+======
 
-.. automodule:: gamspy.math
+.. automodule:: gamspy
 
    
    
@@ -28,8 +28,8 @@ gamspy.math
    :template: custom-module-template.rst
    :recursive:
 
-   gamspy.math.log_power
-   gamspy.math.numeric
-   gamspy.math.probability
-   gamspy.math.trigonometric
+   gamspy.exceptions
+   gamspy.functions
+   gamspy.math
+   gamspy.utils
 

@@ -28,14 +28,14 @@ from typing import List
 from typing import TYPE_CHECKING
 from typing import Union
 
-import gamspy._algebra.expression as expression
-import gamspy._algebra.operable as operable
+import gamspy.algebra.expression as expression
+import gamspy.algebra.operable as operable
 import gamspy.utils as utils
-from gamspy._symbols.implicits.implicit_symbol import ImplicitSymbol
+from gamspy.symbols.implicits.implicit_symbol import ImplicitSymbol
 
 if TYPE_CHECKING:
     from gamspy import Alias, Set
-    from gamspy._algebra.expression import Expression
+    from gamspy.algebra.expression import Expression
 
 
 class ImplicitSet(ImplicitSymbol, operable.Operable):
