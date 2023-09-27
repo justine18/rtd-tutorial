@@ -7,7 +7,7 @@ sys.path.append(os.path.abspath('../../src/'))
 # -- Project information
 
 project = 'GAMSPy'
-copyright = "2023, Muhammet Soyturk"
+copyright = "2023,  GAMS Development Corporation"
 author = "Muhammet Soyturk"
 
 release = '0.1'
