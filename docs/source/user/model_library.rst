@@ -11,8 +11,8 @@ GAMSPy has an extensive model library that includes many models implemented with
      - GAMSPy Implementation
      - GAMS Implementation
    * - Trnsport
-     - :ref:`trnsport_py`
-     - :ref:`trnsport_gms`
+     - :ref:`GAMSPy <trnsport>`
+     - `GAMS <https://www.gams.com/latest/gamslib_ml/libhtml/gamslib_trnsport.html>`__
    * - Blend
-     - :ref:`blendpy`
-     - :ref:`blendgms`
+     - :ref:`GAMSPy <blend>`
+     - `GAMS <https://www.gams.com/latest/gamslib_ml/libhtml/gamslib_blend.html>`__

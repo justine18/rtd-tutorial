@@ -1,18 +1,8 @@
 :orphan:
 
-Blend
-------
+.. _blend:
 
-.. _blendpy:
-
-GAMSPy
-``````
+Blending Problem I
+------------------
 
 .. literalinclude:: ../../../../../tests/integration/models/blend.py
-
-.. _blendgms:
-
-GAMS
-`````
-
-.. literalinclude:: ../gams/blend.gms
