@@ -1,18 +1,8 @@
 :orphan:
 
-trnsport
---------
+.. _trnsport:
 
-.. _trnsport_py:
-
-GAMSPy
-```````
+A Transportation Problem
+------------------------
 
 .. literalinclude:: ../../../../../tests/integration/models/transportation.py
-
-.. _trnsport_gms:
-
-GAMS
-`````
-
-.. literalinclude:: ../gams/trnsport.gms

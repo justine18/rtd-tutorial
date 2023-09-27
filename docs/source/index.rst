@@ -9,7 +9,7 @@ GAMSPy documentation
 **Download documentation**:
 `Historical versions of documentation <https://numpy.org/doc/>`_ 
 
-.. todo:: Link needs update   
+.. todo:: Historical versions link needs update   
 
 
 **Useful links**:
@@ -17,11 +17,16 @@ GAMSPy documentation
 `Source Repository <https://git.gams.com/devel/gamspy/-/tree/master/>`_ 
 `Support <https://www.gams.com/support/>`_
 
-.. todo:: Link needs update|
+.. todo:: Source repository link needs update|
 
 GAMSPy is a mathematical optimization package for scientific and commercial
 computing in Python. It is a Python library that provides symbols to be used
 in equations, a math package, and various utility functions.
+
+ToDos
+------
+
+.. todolist::
 
 Contents
 --------
