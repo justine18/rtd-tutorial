@@ -8,7 +8,7 @@ All example notebooks and input data files are available on GitHub.
 .. todo:: Add a link to the GitHub repository.
 
 * :doc:`examples/trnsport` |colab_trsnport|
-* :doc:`examples/blend`
+* :doc:`examples/blend` |colab_blend|
 
 .. |colab_trsnport| image:: https://colab.research.google.com/assets/colab-badge.svg
         :target: https://colab.research.google.com/github/justine18/rtd-tutorial/blob/main/docs/source/user/examples/trnsport.ipynb
