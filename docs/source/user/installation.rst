@@ -1,5 +1,3 @@
-:orphan:
-
 .. _installation:
 
 ===================
@@ -44,3 +42,6 @@ Testing
 Run tests with::
 
     $ python tests/test_gamspy.py
+
+Install Solvers
+---------------
