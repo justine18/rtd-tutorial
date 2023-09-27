@@ -29,9 +29,9 @@ from typing import Union
 
 import gamspy._algebra.expression as expression
 import gamspy._algebra.operable as operable
-import gamspy._symbols.implicits as implicits
+import gamspy.symbols.implicits as implicits
 import gamspy.utils as utils
-from gamspy._symbols.implicits.implicit_symbol import ImplicitSymbol
+from gamspy.symbols.implicits.implicit_symbol import ImplicitSymbol
 
 if TYPE_CHECKING:
     from gams.transfer import Variable

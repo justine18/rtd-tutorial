@@ -31,8 +31,8 @@ import gams.transfer as gt
 import gamspy._algebra.condition as condition
 import gamspy._algebra.expression as expression
 import gamspy._algebra.operable as operable
-import gamspy._symbols.implicits as implicits
-from gamspy._symbols.symbol import Symbol
+import gamspy.symbols.implicits as implicits
+from gamspy.symbols.symbol import Symbol
 
 if TYPE_CHECKING:
     from gamspy import Set, Container

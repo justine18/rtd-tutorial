@@ -36,13 +36,13 @@ from gamspy._model import Model
 from gamspy._model import ModelStatus
 from gamspy._model import Problem
 from gamspy._model import Sense
-from gamspy._symbols import Alias
-from gamspy._symbols import Equation
-from gamspy._symbols import EquationType
-from gamspy._symbols import Parameter
-from gamspy._symbols import Set
-from gamspy._symbols import Variable
-from gamspy._symbols import VariableType
+from gamspy.symbols import Alias
+from gamspy.symbols import Equation
+from gamspy.symbols import EquationType
+from gamspy.symbols import Parameter
+from gamspy.symbols import Set
+from gamspy.symbols import Variable
+from gamspy.symbols import VariableType
 
 _order = 0  # Global order for newly generated symbols with no name
 __version__ = "0.1.0"

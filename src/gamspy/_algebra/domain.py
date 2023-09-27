@@ -33,7 +33,7 @@ import gamspy.utils as utils
 
 if TYPE_CHECKING:
     from gamspy import Set, Alias
-    from gamspy._symbols.implicits import ImplicitSet
+    from gamspy.symbols.implicits import ImplicitSet
 
 
 class DomainException(Exception):

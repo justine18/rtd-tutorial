@@ -2,7 +2,7 @@ import unittest
 
 import pandas as pd
 
-import gamspy._symbols.implicits as implicits
+import gamspy.symbols.implicits as implicits
 from gamspy import Container
 from gamspy import Set
 from gamspy import Variable

@@ -36,11 +36,11 @@ from gams.core import gdx
 from gams.transfer._internals.specialvalues import SpecialValues
 
 import gamspy
-import gamspy._symbols.implicits as implicits
+import gamspy.symbols.implicits as implicits
 from gamspy.exceptions import GdxException
 
 if TYPE_CHECKING:
-    from gamspy._symbols.implicits import ImplicitSet
+    from gamspy.symbols.implicits import ImplicitSet
     from gamspy import Alias, Set
     from gamspy import Domain
     from gamspy._algebra.expression import Expression

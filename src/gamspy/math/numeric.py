@@ -31,7 +31,7 @@ import gamspy._algebra.expression as expression
 
 if TYPE_CHECKING:
     from gamspy._algebra.expression import Expression
-    from gamspy._symbols.symbol import Symbol
+    from gamspy.symbols.symbol import Symbol
 
 
 def abs(x: Union[int, float, "Symbol"]) -> Union["Expression", float]:

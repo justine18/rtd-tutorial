@@ -23,10 +23,7 @@
 # SOFTWARE.
 #
 # flake8: noqa
-from gamspy._symbols.alias import Alias
-from gamspy._symbols.equation import Equation
-from gamspy._symbols.equation import EquationType
-from gamspy._symbols.parameter import Parameter
-from gamspy._symbols.set import Set
-from gamspy._symbols.variable import Variable
-from gamspy._symbols.variable import VariableType
+from gamspy.symbols.implicits.implicit_equation import ImplicitEquation
+from gamspy.symbols.implicits.implicit_parameter import ImplicitParameter
+from gamspy.symbols.implicits.implicit_set import ImplicitSet
+from gamspy.symbols.implicits.implicit_variable import ImplicitVariable

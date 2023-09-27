@@ -35,9 +35,9 @@ import pandas as pd
 import gamspy._algebra.condition as condition
 import gamspy._algebra.expression as expression
 import gamspy._algebra.operable as operable
-import gamspy._symbols.implicits as implicits
+import gamspy.symbols.implicits as implicits
 import gamspy.utils as utils
-from gamspy._symbols.symbol import Symbol
+from gamspy.symbols.symbol import Symbol
 
 if TYPE_CHECKING:
     from gamspy import Set, Container

@@ -38,12 +38,12 @@ from gams import UpdateAction
 from gams import VarType
 
 import gamspy as gp
-import gamspy._symbols.implicits as implicits
+import gamspy.symbols.implicits as implicits
 from gamspy.exceptions import GamspyException
 
 if TYPE_CHECKING:
     from gamspy import Parameter, Model, Container
-    from gamspy._symbols.implicits import ImplicitParameter
+    from gamspy.symbols.implicits import ImplicitParameter
 
 
 variable_map = {
